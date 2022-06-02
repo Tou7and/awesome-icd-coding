@@ -1,0 +1,71 @@
+Flat SVM
+Hierarchy-based SVM
+SVM
+Two-level hierarchical classification
+SVM
+LR
+MNB
+LSTM
+C-MemNN
+A-MemNN
+CNN
+Flat SVM
+Hierarchical SVM
+LR
+CNN
+RNN-GRU
+SVM
+CBOW
+CNN
+HA-GRU
+CAML
+DR-CAML
+EnHAN
+Tree-of-sequences LSTM
+ZACNN
+ZAGCNN
+SVM
+NB
+Decision Tree
+kNN
+RF
+AdaBoost
+MLP
+Deep transfer learning using multi-scale CNN and Batch normalisation
+Binary relevance
+Label Power set
+ML-kNN
+MSATT-KG
+Multi-view CNN
+CNN
+LSTM
+GRU
+DeepLabeler (CNN and D2V)
+CNN
+FastText
+Text-CNN
+ML-Net
+ML-CNN
+ML-HAN
+HyperCore
+BiLSTMs
+LAAT
+JointLAAT
+ZAGRNN
+UNITE
+ANN
+CNN
+Bi-LSTM
+MultiResCNN
+G_Coder
+CNN
+Bi-GRU
+DR-CAML
+MVC-LDA
+MVC-RLDA
+DCAN
+CNN
+LSTM
+GRU
+HAN
+AttentionXML (BERT-XML)

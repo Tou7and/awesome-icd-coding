@@ -1,0 +1,102 @@
+BR
+copy transformation
+ECC
+End-to-End Memory Network
+KV-MemNNs
+SVM
+RF
+GBM
+CNN
+LR
+Bi-GRU
+Flat SVM
+HA-GRU
+C-MemNN
+HAN
+HierNet
+HybridNet
+BranchNet
+LET
+LR
+CNN
+ACNN
+Match-CNN
+Flat SVM
+LR
+Selected Feature
+Bi-GRU
+Flat SVM
+Hierarchy SVM
+Text-CNN
+DR-CAML
+CAML
+LEAM
+C-MemNN
+Attentive LSTM
+CAML
+MVC-LDA
+MVC-RLDA
+Logistic regression
+Random Forest
+Feed-forward neural network
+C-MemNN
+Flat SVM
+hierarchy-based SVM
+Logistic regression
+LR+L2R+NERC
+averaging ensemble CNNs without transfer learning
+Binary relevance SVM
+MT-CNN-net
+HA-GRU
+CAML
+DR-CAML
+SVM
+SVM
+C-MemNN  
+C-LSTM-ATT
+HA-GRU
+CAML
+DR-CAML
+DeepLabeler
+LR
+SVM
+CNN
+Bi-GRU
+C-MemNN 
+C-LSTM-Att
+HA-GRU
+LEAM
+CAML
+DR-CAML
+MSATT-KG
+MultiResCNN
+ZAGCNN
+LR
+Topic modeling
+MLP
+SVM
+Flat SVM 
+Hierarchy SVM
+CAML
+DR-CAML
+HA-GRU
+C-MemNN
+C-LSTM-Att
+C-LSTM-Att
+CAML
+DR-CAML
+MultiResCNN
+CNN [45]
+C-MemNN [67]
+Attentive LSTM
+Bi-GRU
+CAML
+DR-CAML
+LEAM
+MultiResCNN
+SVM
+LR
+Multi-head Attention
+BERT
+BioBERT
+ClinicalBERT

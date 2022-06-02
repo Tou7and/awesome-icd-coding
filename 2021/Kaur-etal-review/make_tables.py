@@ -1,3 +1,4 @@
+from collections import Counter
 import pandas as pd
 
 def show_datasets():
@@ -76,8 +77,102 @@ def show_preprocess():
     df2 = df.sort_values(by=['counts'], ascending=False)
     print(df2.to_markdown(index=None))
 
+def show_features():
+    """
+    1. TF-IDF (14/38)
+    2. N-grams (2/38)
+    3. BoW (8/38)
+    4. Doc2Vec ()
+    5. Word2Vec 
+    6. GloVe
+    7. BERT 
+    8. knowlege grpah
+    """
+    table = [
+        {"name": "TF-IDF", "counts": 14},
+        {"name": "N-grams", "counts": 2},
+        {"name": "BOW", "counts": 8},
+        {"name": "Doc2Vec", "counts": 1},
+        {"name": "CBOW", "counts": 7},
+        {"name": "skip-gram", "counts": 3},
+        {"name": "GloVe", "counts": 3},
+        {"name": "cui2vec", "counts": 1},
+        {"name": "FastText", "counts": 1},
+        {"name": "EHR-BERT", "counts": 1},
+        {"name": "Knowledge graph", "counts": 1},
+    ]
+    df = pd.DataFrame(table)
+    df2 = df.sort_values(by=['counts'], ascending=False)
+    print(df2.to_markdown(index=None))
+    return 
+
+
+def show_methods():
+    table = [
+        {"name": "SVM", "counts": 18},
+        {"name": "Hierarchical SVM", "counts": 5},
+        {"name": "Hierarchical classification", "counts": 1},
+        {"name": "LR", "counts": 1},
+        {"name": "MNB", "counts": 1},
+        {"name": "LSTM", "counts": 1},
+        {"name": "MemNN", "counts": 1},
+        {"name": "MemNN", "counts": 1},
+        {"name": "CNN", "counts": 1},
+        {"name": "GRU", "counts": 1},
+        {"name": "CAML", "counts": 1},
+        {"name": "DR-CAML", "counts": 1},
+        {"name": "EnHAN", "counts": 1},
+        {"name": "Tree-of-sequences LSTM", "counts": 1},
+        {"name": "ZACNN", "counts": 1},
+        {"name": "ZAGCNN", "counts": 1},
+        {"name": "Decision Tree", "counts": 1},
+        {"name": "kNN", "counts": 1},
+        {"name": "RF", "counts": 1},
+        {"name": "AdaBoost", "counts": 1},
+        {"name": "MLP", "counts": 1},
+        {"name": "Binary relevance", "counts": 1},
+        {"name": "Label Power set", "counts": 1},
+        {"name": "MSATT-KG", "counts": 1},
+        {"name": "DeepLabeler (CNN and D2V)", "counts": 1},
+        {"name": "FastText", "counts": 1},
+        {"name": "HyperCore", "counts": 1},
+        {"name": "LAAT", "counts": 1},
+        {"name": "ZAGRNN", "counts": 1},
+        {"name": "UNITE", "counts": 1},
+        {"name": "G_Coder", "counts": 1},
+        {"name": "MVC-LDA", "counts": 1},
+        {"name": "MVC-RLDA", "counts": 1},
+        {"name": "DCAN", "counts": 1},
+        {"name": "BERT-XML", "counts": 1},
+    ]
+    df = pd.DataFrame(table)
+    df2 = df.sort_values(by=['counts'], ascending=False)
+    print(df2.to_markdown(index=None))
+    return 
+
+def make_table10_proposed():
+    with open("./table10-proposed.txt", 'r') as reader:
+        text = reader.read()
+    methods = text.split("\n")
+    counts = Counter(methods)
+
+    df = pd.DataFrame(counts.most_common())
+    df.columns = ['proposed methods', 'counts']
+    print(df.to_markdown(index=None))
+    
+def make_table10_compared():
+    with open("./table10-compared.txt", 'r') as reader:
+        text = reader.read()
+    methods = text.split("\n")
+    counts = Counter(methods)
+
+    df = pd.DataFrame(counts.most_common())
+    df.columns = ['compared methods', 'counts']
+    print(df.to_markdown(index=None))
+
 
 if __name__ == "__main__":
     # show_datasets()
-    show_preprocess()
-
+    # show_features()
+    make_table10_proposed()
+    make_table10_compared()
