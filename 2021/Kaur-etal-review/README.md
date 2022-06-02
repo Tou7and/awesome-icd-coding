@@ -27,39 +27,43 @@ To reduce coding errors and cost, there is a need for an automated clinical codi
 
 ## Datasets
 Note that some works use multiple datasets rather than one. MIMIC-III is the most used dataset among these studies.
-1. MIMIC-II (ICD-9-CM) (14/38)
-2. MIMIC-III (ICD-9-CM) (27/38)
-3. University of Kentucky medical centre (ICD-9-CM) (2/38)
-4. Australian hospital medical records (ICD-10-AM and ACHI) (2/38)
-5. Taiwan hospital discharge notes (ICD-10-CM) (1/38)
-6. NYU Langone Hospital (ICD-10) (1/38)
-7. Other anonymous healthcare providers (ICD-10-CM, ICD-10-PCS) (2/38)
+
+| name                                  | type                  |   counts |
+|:--------------------------------------|:----------------------|---------:|
+| MIMIC-III                             | ICD-9-CM              |       27 |
+| MIMIC-II                              | ICD-9-CM              |       14 |
+| University of Kentucky medical centre | ICD-9-CM              |        2 |
+| Australian hospital medical records   | ICD-10-AM and ACHI    |        2 |
+| Taiwan hospital discharge notes       | ICD-10-CM             |        1 |
+| NYU Langone Hospital                  | ICD-10                |        1 |
+| Other anonymous providers             | ICD-10-CM, ICD-10-PCS |        1 |
+
 
 ### Pre-processing
 There are several pre-processing techniques, the most 3 popular are Tokenization, Removal of stop words/non-alphabetical, and Lowercase conversion. <br>
-There are 4 of the works provide no information about pre-processing, so I change the denominator to 34.
-1. Tokenization (19/34)
-2. Lowercase conversion (13/34) 
-3. Removal of stop words (14/34)
-4. Sentence segmentation (5/34)
-5. Removal of non-alphabetical characters (13/34)
-6. Abbreviation expansion (2/34)
-7. Spell error detection and correction (3/34)
-8. Negation detection (3/34)
-9. Stemming (2/34)
-10. Lemmatization (2/34)
-11. Parsing (1/34)
-12. Part-of-speech tagging (1/34)
-13. Named Entity Recognition (2/34)
-14. Normalization (2/34)
-15. Regular expression matching (1/34)
-16. Built dictionary or vocabulary (2/34)
-17. Truncation of documents (9/34)
-18. Replace to UNK (5/34)
-19. Removal of de-identified or confidential information (2/34)
-20. Extracted diagnosis descriptions (1/34)
-21. Removing non-matching terms (1/34)
-22. No information (4/38)
+There are 4 of the works provide no information about pre-processing, so the denominator is actual 34. <br>
+| name                                                 |   counts |
+|:-----------------------------------------------------|---------:|
+| Tokenization                                         |       19 |
+| Removal of stop words                                |       14 |
+| Removal of non-alphabetical characters               |       13 |
+| Lowercase conversion                                 |       13 |
+| Truncation of documents                              |        9 |
+| Replace to UNK                                       |        5 |
+| Sentence segmentation                                |        5 |
+| Spell error detection and correction                 |        3 |
+| Negation detection                                   |        3 |
+| Abbreviation expansion                               |        2 |
+| Stemming                                             |        2 |
+| Lemmatization                                        |        2 |
+| Named Entity Recognition                             |        2 |
+| Removal of de-identified or confidential information |        2 |
+| Built dictionary or vocabulary                       |        2 |
+| Extracted diagnosis descriptions                     |        1 |
+| Parsing                                              |        1 |
+| Regular expression matching                          |        1 |
+| Part-of-speech tagging                               |        1 |
+| Removing non-matching terms                          |        1 |
 
 ## Methods
 The methods each work used is decomposed into 2 parts, feature extraction and machine learing models. <br>
@@ -86,4 +90,9 @@ Basically all works use more than one methods.
 4. Reducing the complex problem
 5. Transfer learning approach
 6. Active learning and reinforcement learning
+
+
+
+
+
 
