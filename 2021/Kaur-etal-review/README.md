@@ -71,19 +71,25 @@ Basically all works use more than one methods.
 
 
 ### Feature Extraion
-1. TF-IDF (14/38)
-2. N-grams (2/38)
-3. BoW (8/38)
-4. Doc2Vec ()
-5. Word2Vec 
-6. GloVe
-7. BERT 
-8. knowlege grpah
-9. other word embeddings
+TF-IDF, BOW and CBOW are commonly used within these works. <br>
+
+| name            |   counts |
+|:----------------|---------:|
+| TF-IDF          |       14 |
+| BOW             |        8 |
+| CBOW            |        7 |
+| skip-gram       |        3 |
+| GloVe           |        3 |
+| N-grams         |        2 |
+| Doc2Vec         |        1 |
+| cui2vec         |        1 |
+| FastText        |        1 |
+| EHR-BERT        |        1 |
+| Knowledge graph |        1 |
 
 
 ### Proposed Methods
-CNN is the most proposed methods within these works. <br>
+CNN and SVM are proposed more frequently within these works. <br>
 
 | proposed methods                                                     |   counts |
 |:---------------------------------------------------------------------|---------:|
@@ -144,7 +150,7 @@ CNN is the most proposed methods within these works. <br>
 | AttentionXML (BERT-XML)                                              |        1 |
 
 ### Compared Methods
-CAML is the most compared methods within these works. <br>
+CAML and SVM are compared more frequently within these works. <br>
 
 | compared methods                                  |   counts |
 |:--------------------------------------------------|---------:|
@@ -212,6 +218,7 @@ CAML is the most compared methods within these works. <br>
 4. Reducing the complex problem
 5. Transfer learning approach
 6. Active learning and reinforcement learning
+
 
 
 

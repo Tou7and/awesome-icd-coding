@@ -173,6 +173,6 @@ def make_table10_compared():
 
 if __name__ == "__main__":
     # show_datasets()
-    # show_features()
-    make_table10_proposed()
-    make_table10_compared()
+    show_features()
+    # make_table10_proposed()
+    # make_table10_compared()
