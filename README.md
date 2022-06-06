@@ -1,3 +1,3 @@
 # awesome-icd-coding
-Some notes about the awesome ICD coding and machine learning.
+Some notes about ICD medical coding and related machine learning methods.
 
