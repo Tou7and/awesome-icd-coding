@@ -1,25 +1,28 @@
 # A Systematic Literature Review of Automated ICD Coding and Classification Systems using Discharge Summaries
 > [Kaur, R., Ginige, J. A., & Obst, O. (2021). A Systematic Literature Review of Automated ICD Coding and Classification Systems using Discharge Summaries. arXiv preprint arXiv:2107.10652. ](https://arxiv.org/pdf/2107.10652.pdf)
 
-This work selected 38 studies with high quality assessment scores from 4 different academic databases (PubMed, ScienceDirect, ACM, ACL), ranging from 2013 to 2020.
-- ACM: Association for Computing Machinery Digital Library
-- ACL: Association for Computational Linguistics Anthology
+This work selected 38 studies with high quality assessment scores from 4 different academic databases <br>
+(PubMed, ScienceDirect, ACM, ACL), ranging from 2013 to 2020.
+> ACM: Association for Computing Machinery Digital Library
+> ACL: Association for Computational Linguistics Anthology
 It briefly introduce the history of medical coding from ICD-1(1900) to ICD-11(2018) in introdution. <br>
 It provides some nice tables to list the methods of by these works. <br>
 
 ## Motivations
 ICD Coding:
-- With the transition from ICD-9 to ICD-10 in 1992, the number of codes increased from 3,882 to approximately 70,000.
+- With the transition from ICD-9 to ICD-10 in 1992, <br> the number of codes increased from 3,882 to approximately 70,000.
 Unconstructed Text:
-- Huang et al.[36] show that more than 80% of health record data is in an unstructured form which acts as a barrier in an automated clinical decision making process.
-- Unstructured text contains a lot of valuable information but lacks common structural frameworks and may contain errors, such as spelling errors, grammatical errors, and semantic ambiguities, which further increases the complexity of data processing and analysis [87]
+- Huang et al.[36] show that more than 80% of health record data is in an unstructured form <br> which acts as a barrier in an automated clinical decision making process.
+- Unstructured text contains a lot of valuable information but lacks common structural frameworks <br> and may contain errors, such as spelling errors, grammatical errors, and semantic ambiguities, which further increases the complexity of data processing and analysis [87]
 Difficulties:
 1. Idiosyncrasies of medical language
 2. Scarcity of electronic health records
 3. Label-space problem
 4. Requirement of large amount of training data
 
-To reduce coding errors and cost, there is a need for an automated clinical coding system, commonly referred to as computer-assisted coding system that will overcome the manual coding challenges and assist human coders to assign correct clinical codes more quickly and accurately.
+To reduce coding errors and cost, there is a need for an automated clinical coding system, <br>
+commonly referred to as computer-assisted coding system that will overcome the manual coding challenges <br>
+and assist human coders to assign correct clinical codes more quickly and accurately.
 
 
 ## Datasets
@@ -38,8 +41,9 @@ MIMIC-III is the most used dataset among these studies. <br>
 
 
 ### Pre-processing
-There are several pre-processing techniques, the most 3 popular are Tokenization, Removal of stop words/non-alphabetical, and Lowercase conversion. <br>
+There are several pre-processing techniques. Top 3 popular are Tokenization, Removal of stop words, and Lowercase conversion. <br>
 There are 4 of the works provide no information about pre-processing, so the denominator is actual 34. <br>
+
 | name                                                 |   counts |
 |:-----------------------------------------------------|---------:|
 | Tokenization                                         |       19 |
