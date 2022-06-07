@@ -14,11 +14,8 @@ ICD Coding: <br>
 With the transition from ICD-9 to ICD-10 in 1992, <br> the number of codes increased from 3,882 to approximately 70,000. 
 
 Unconstructed Text: <br>
-Huang et al.[36] show that more than 80% of health record data is in an unstructured form <br> 
-which acts as a barrier in an automated clinical decision making process. <br>
-Unstructured text contains a lot of valuable information but lacks common structural frameworks <br> 
-and may contain errors, such as spelling errors, grammatical errors, and semantic ambiguities,  <br>
-which further increases the complexity of data processing and analysis [87]
+Over 80% of health record data is in an unstructured form which acts as a barrier in an automated clinical decision making. (Huang et al.[36])<br>
+Unstructured text contains a lot of valuable information but may spelling errors, grammatical errors, and semantic ambiguities, which increases the complexity of data processing and analysis [87]
 
 Difficulties:
 1. Idiosyncrasies of medical language
@@ -26,10 +23,8 @@ Difficulties:
 3. Label-space problem
 4. Requirement of large amount of training data
 
-To reduce coding errors and cost, there is a need for an automated clinical coding system, <br>
-commonly referred to as computer-assisted coding system that will overcome the manual coding challenges <br>
-and assist human coders to assign correct clinical codes more quickly and accurately.
-
+To reduce coding errors and cost, there is a need for an automated clinical coding system that overcome the manual coding challenges and assist human coders to assign correct clinical codes more quickly and accurately. <br>
+(This kind of system are also refered to as computer-assisted coding system)
 
 ## Datasets
 Some works use multiple datasets rather than one. <br>
@@ -226,11 +221,5 @@ CAML and SVM are compared more frequently within these works. <br>
 4. Reducing the complex problem
 5. Transfer learning approach
 6. Active learning and reinforcement learning
-
-
-
-
-
-
 
 
