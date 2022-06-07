@@ -3,17 +3,23 @@
 
 This work selected 38 studies with high quality assessment scores from 4 different academic databases <br>
 (PubMed, ScienceDirect, ACM, ACL), ranging from 2013 to 2020.
-> ACM: Association for Computing Machinery Digital Library
-> ACL: Association for Computational Linguistics Anthology
+> ACM: Association for Computing Machinery Digital Library <br>
+> ACL: Association for Computational Linguistics Anthology <br>
+
 It briefly introduce the history of medical coding from ICD-1(1900) to ICD-11(2018) in introdution. <br>
 It provides some nice tables to list the methods of by these works. <br>
 
 ## Motivations
-ICD Coding:
-- With the transition from ICD-9 to ICD-10 in 1992, <br> the number of codes increased from 3,882 to approximately 70,000.
-Unconstructed Text:
-- Huang et al.[36] show that more than 80% of health record data is in an unstructured form <br> which acts as a barrier in an automated clinical decision making process.
-- Unstructured text contains a lot of valuable information but lacks common structural frameworks <br> and may contain errors, such as spelling errors, grammatical errors, and semantic ambiguities, which further increases the complexity of data processing and analysis [87]
+ICD Coding: <br>
+With the transition from ICD-9 to ICD-10 in 1992, <br> the number of codes increased from 3,882 to approximately 70,000. 
+
+Unconstructed Text: <br>
+Huang et al.[36] show that more than 80% of health record data is in an unstructured form <br> 
+which acts as a barrier in an automated clinical decision making process. <br>
+Unstructured text contains a lot of valuable information but lacks common structural frameworks <br> 
+and may contain errors, such as spelling errors, grammatical errors, and semantic ambiguities,  <br>
+which further increases the complexity of data processing and analysis [87]
+
 Difficulties:
 1. Idiosyncrasies of medical language
 2. Scarcity of electronic health records
@@ -70,9 +76,7 @@ There are 4 of the works provide no information about pre-processing, so the den
 
 ## Methods
 The methods each work used is decomposed into 2 parts, feature extraction and machine learing models. <br>
-Basically all works use more than one methods.
-
-
+Basically all works use two or more methods, since it is necessary to compare with others.
 
 ### Feature Extraion
 TF-IDF, BOW and CBOW are commonly used within these works. <br>
