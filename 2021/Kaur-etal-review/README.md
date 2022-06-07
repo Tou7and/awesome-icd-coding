@@ -11,20 +11,16 @@ It provides some nice tables to list the methods of by these works. <br>
 
 ## Motivations
 ICD Coding: <br>
-With the transition from ICD-9 to ICD-10 in 1992, <br> the number of codes increased from 3,882 to approximately 70,000. 
+With the transition from ICD-9 to ICD-10 in 1992, the number of codes increased from 3,882 to approximately 70,000. 
 
 Unconstructed Text: <br>
-Over 80% of health record data is in an unstructured form which acts as a barrier in an automated clinical decision making. (Huang et al.[36])<br>
+OHuang et al.[36] show that more than 80% of health record data is in an unstructured form which acts as a barrier in an automated clinical decision making process. <br>
 Unstructured text contains a lot of valuable information but may spelling errors, grammatical errors, and semantic ambiguities, which increases the complexity of data processing and analysis [87]
 
-Difficulties:
-1. Idiosyncrasies of medical language
-2. Scarcity of electronic health records
-3. Label-space problem
-4. Requirement of large amount of training data
+Other difficulties includes: Idiosyncrasies of medical language, Scarcity of electronic health records, Label-space problem, and Requirement of large amount of training data.
 
 To reduce coding errors and cost, there is a need for an automated clinical coding system that overcome the manual coding challenges and assist human coders to assign correct clinical codes more quickly and accurately. <br>
-(This kind of system are also refered to as computer-assisted coding system)
+(also refered to as computer-assisted coding system)
 
 ## Datasets
 Some works use multiple datasets rather than one. <br>
