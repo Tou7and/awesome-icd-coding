@@ -1,5 +1,5 @@
 # awesome-icd-coding
-Some notes about ICD medical coding and related machine learning methods.
+Try to find public available papers about auto ICD medical coding via machine learning. (still in progress)
 
 
 ## 2018
