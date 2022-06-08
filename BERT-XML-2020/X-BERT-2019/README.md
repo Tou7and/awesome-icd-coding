@@ -44,10 +44,27 @@ The key to a successful search engine is high-recall matching since the subseque
 After the matching step, a small subset of label clusters is retrieved and the remaining task is to rank the labels in the clusters. <br>
 A ranking model is neede to model the relevance between the instance and the retrieved labels. <br>
 Given a label l and an instance x, its job is to find a mapping h(x, l) that maps the instance feature x and the label l to a score. <br>
-
 The class label is positive if the instance belongs to the cluster, otherwise, it is negative.<br>
+In this paper, mainly used ranking model is the linear one-vs-all (OVA) approach.
 
-Final output: ensemble the scores from different X-BERT models trained on different semantic-aware label clusters. <br>
 
+## Results of Different Configurations
+Experiments on AmazonCat-13K and Wiki-500K dataset.
+
+### Best Configuration
+indexing: ELMo,PIFA <br>
+matching: BERT <br>
+ranking: linear <br>
+
+In the future we plan to go beyond linear to neural models for ranking. <br>
+(The future seems to be this paper: [Taming Pretrained Transformers for Extreme Multi-label Text Classification](https://arxiv.org/pdf/1905.02331.pdf))
+
+### Worst Configuration
+indexing: PIFA <br>
+matching: BERT <br>
+ranking: tf-idf <br>
+
+Worst result show the importance of learning rankers instead of unsupervised TF-IDF ranking. <br>
+TF-IDF essentially re-ranks the labels within the retrieved clusters by word matching with the queried documents without learning any model. <br>
 
 
