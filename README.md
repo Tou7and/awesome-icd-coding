@@ -2,12 +2,21 @@
 Try to find public available papers about auto ICD medical coding via machine learning. <br>
 A similar awesome list of medical coding can be found here: [acadTags/Awesome-medical-coding-NLP](https://github.com/acadTags/Awesome-medical-coding-NLP) <br>
 The above list is more complete for now. <br>
-But I try to categorize the articles by the ICD versions since the name of the repo has ICD in it, and will try to make this list more complete in the future.
+But I try to categorize the articles by the ICD versions and include other related resources.
+
 
 ## Contents
+- [Awesome-Relatives](#awesome-relatives)
 - [ICD-9](#icd-9)
 - [ICD-10](#icd-10)
 - [Others](#others)
+
+
+## Awesome-Relatives
+List related awesome lists here.
+- [acadTags/Awesome-medical-coding-NLP](https://github.com/acadTags/Awesome-medical-coding-NLP)
+- [keon/awesome-nlp](https://github.com/keon/awesome-nlp)
+- [Separius/awesome-sentence-embedding](https://github.com/Separius/awesome-sentence-embedding)
 
 
 ## ICD-9
@@ -21,6 +30,7 @@ But I try to categorize the articles by the ICD versions since the name of the r
 
 
 ## ICD-10
+- [icd10data: Free 2022 ICD-10-CM/PCS Medical Coding Reference](https://www.icd10data.com/)
 - [Zhang, Z., Liu, J., & Razavian, N. (2020). BERT-XML: Large scale automated ICD coding using BERT pretraining. arXiv preprint arXiv:2006.03685.](https://arxiv.org/pdf/2006.03685.pdf)
 
 
