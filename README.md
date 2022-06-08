@@ -15,7 +15,11 @@ But I try to categorize the articles by the ICD versions and include other relat
 ## Awesome-Relatives
 List related awesome lists here.
 - [acadTags/Awesome-medical-coding-NLP](https://github.com/acadTags/Awesome-medical-coding-NLP)
+- [OHNLP/awesome-clinical-nlp](https://github.com/OHNLP/awesome-clinical-nlp)
 - [keon/awesome-nlp](https://github.com/keon/awesome-nlp)
+- [Jiakui/awesome-bert](https://github.com/Jiakui/awesome-bert)
+- [cedrickchee/awesome-bert-nlp](https://github.com/cedrickchee/awesome-bert-nlp)
+- [harpribot/awesome-information-retrieval](https://github.com/harpribot/awesome-information-retrieval)
 - [Separius/awesome-sentence-embedding](https://github.com/Separius/awesome-sentence-embedding)
 
 
