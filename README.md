@@ -1,9 +1,8 @@
 # awesome-icd-coding
-Try to find public available papers about auto ICD medical coding via machine learning. <br>
+This is not an official awesome list, just my personal collection of public available resources about auto ICD medical coding. <br>
 A similar awesome list of medical coding can be found here: [acadTags/Awesome-medical-coding-NLP](https://github.com/acadTags/Awesome-medical-coding-NLP) <br>
 The above list is more complete for now. <br>
 But I try to categorize the articles by the ICD versions and include other related resources.
-
 
 ## Contents
 - [Awesome-Relatives](#awesome-relatives)
@@ -13,12 +12,13 @@ But I try to categorize the articles by the ICD versions and include other relat
 
 
 ## Awesome-Relatives
-List related awesome lists here.
+List related [awesome lists](https://github.com/sindresorhus/awesome) here.
 - [acadTags/Awesome-medical-coding-NLP](https://github.com/acadTags/Awesome-medical-coding-NLP)
 - [OHNLP/awesome-clinical-nlp](https://github.com/OHNLP/awesome-clinical-nlp)
 - [keon/awesome-nlp](https://github.com/keon/awesome-nlp)
 - [Jiakui/awesome-bert](https://github.com/Jiakui/awesome-bert)
 - [cedrickchee/awesome-bert-nlp](https://github.com/cedrickchee/awesome-bert-nlp)
+- [caufieldjh/awesome-bioie](https://github.com/caufieldjh/awesome-bioie)
 - [harpribot/awesome-information-retrieval](https://github.com/harpribot/awesome-information-retrieval)
 - [Separius/awesome-sentence-embedding](https://github.com/Separius/awesome-sentence-embedding)
 
@@ -44,6 +44,5 @@ List related awesome lists here.
 - [Chang, W. C., Yu, H. F., Zhong, K., Yang, Y., & Dhillon, I. (2019). X-bert: extreme multi-label text classification with using bidirectional encoder representations from transformers. arXiv preprint arXiv:1905.02331.](https://arxiv.org/pdf/1905.02331.pdf)
     - [guoqunabc/X-BERT](https://github.com/guoqunabc/X-BERT)
     - This paper is not directly related to ICD, but ICD classification can be defined as XMC problem.
-
 
 
