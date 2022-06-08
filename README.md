@@ -1,5 +1,7 @@
 # awesome-icd-coding
-Try to find public available papers about auto ICD medical coding via machine learning. (still in progress)
+Try to find public available papers about auto ICD medical coding via machine learning. <br>
+Still in progress, currently using released year to categorized these literature. <br>
+Will try to make the list more curated if I found more proper way to categorize them.
 
 
 ## Contents
