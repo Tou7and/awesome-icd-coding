@@ -56,7 +56,8 @@ indexing: ELMo,PIFA <br>
 matching: BERT <br>
 ranking: linear <br>
 
-In the future we plan to go beyond linear to neural models for ranking. <br>
+For matching, finetuned BERT is more powerful than the X-Attention models and hierarchical linear models (Parabel). <br>
+In the future they will go beyond linear to neural models for ranking. <br>
 (The future seems to be this paper: [Taming Pretrained Transformers for Extreme Multi-label Text Classification](https://arxiv.org/pdf/1905.02331.pdf))
 
 ### Worst Configuration
