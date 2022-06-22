@@ -45,6 +45,7 @@ List some related topics found on [awesome](https://github.com/sindresorhus/awes
 - [Rios, A., & Kavuluru, R. (2018, October). Few-shot and zero-shot multi-label learning for structured label spaces. In Proceedings of the Conference on Empirical Methods in Natural Language Processing. Conference on Empirical Methods in Natural Language Processing (Vol. 2018, p. 3132). NIH Public Access.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6375489/)
 - [Gao, S., Alawad, M., Young, M. T., Gounley, J., Schaefferkoetter, N., Yoon, H. J., ... & Tourassi, G. (2021). Limitations of transformers on clinical text classification. IEEE journal of biomedical and health informatics, 25(9), 3596-3607.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9364676)
 - [Dong, H., Suárez-Paniagua, V., Whiteley, W., & Wu, H. (2021). Explainable automated coding of clinical notes using hierarchical label-wise attention networks and label embedding initialisation. Journal of biomedical informatics, 116, 103728.](https://www.sciencedirect.com/science/article/pii/S1532046421000575)
+- [Kim, B. H., & Ganapathi, V. (2021, October). Read, attend, and code: Pushing the limits of medical codes prediction from clinical notes by machines. In Machine Learning for Healthcare Conference (pp. 196-208). PMLR.](https://proceedings.mlr.press/v149/kim21a/kim21a.pdf)
 
 
 ### ICD-10
