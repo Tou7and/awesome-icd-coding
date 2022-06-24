@@ -1,5 +1,6 @@
 # X-bert: extreme multi-label text classification with using bidirectional encoder representations from transformers
 > Chang, W. C., Yu, H. F., Zhong, K., Yang, Y., & Dhillon, I. (2019). X-bert: extreme multi-label text classification with using bidirectional encoder representations from transformers. arXiv preprint arXiv:1905.02331.
+> [guoqunabc/X-BERT](https://github.com/guoqunabc/X-BERT)
 
 An implementation based on pytorch and allenlp provided by the authors can be found [here](https://github.com/guoqunabc/X-BERT).
 
@@ -68,4 +69,18 @@ ranking: tf-idf <br>
 Worst result show the importance of learning rankers instead of unsupervised TF-IDF ranking. <br>
 TF-IDF essentially re-ranks the labels within the retrieved clusters by word matching with the queried documents without learning any model. <br>
 
+# Taming pretrained transformers for extreme multi-label text classificatin
+> [Chang, W. C., Yu, H. F., Zhong, K., Yang, Y., & Dhillon, I. S. (2020, August). Taming pretrained transformers for extreme multi-label text classification. In Proceedings of the 26th ACM SIGKDD international conference on knowledge discovery & data mining (pp. 3163-3171).](https://arxiv.org/pdf/1905.02331.pdf)
+In a nutshell, X-Transformer decomposes the intractable XMC problem to a feasible sub-problem with a smaller output space, which is induced from semantic label indexing (clusters the labels). <br>
+Finally, X-Transformer currently uses a linear ranker that conditionally depends on the embedding of transformer models and its top-b predicted clusters to compute the final score. <br>
+
+1. Semantic Label Indexing
+Inducing latent clusters with semantic meaning.
+
+2. Transformer as Neural Matcher
+the original intractable XMC problem morphs to a feasible XMC sub-problem with a much smaller output space of size. <br>
+
+3. Ranking
+After the matching step, a small subset of label clusters is retrieved. <br>
+The goal of the ranker is to model the relevance between the instance and the labels from the retrieved cluster.
 
