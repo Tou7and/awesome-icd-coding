@@ -50,9 +50,12 @@ List some related topics found on [awesome](https://github.com/sindresorhus/awes
 
 ### ICD-10
 - [Subotin, M., & Davis, A. (2014, June). A system for predicting ICD-10-PCS codes from electronic health records. In Proceedings of BioNLP 2014 (pp. 59-67).](https://aclanthology.org/W14-3409.pdf)
+    - ICD-10-PCS, dataset unknown, micro-averaged Fscore is 0.485
 - [Lin, C., Hsu, C. J., Lou, Y. S., Yeh, S. J., Lee, C. C., Su, S. L., & Chen, H. C. (2017). Artificial intelligence learning semantics via external resources for classifying diagnosis codes in discharge notes. Journal of medical Internet research, 19(11), e8344.](https://www.jmir.org/2017/11/e380/)
+    - ICD-10-CM, use 103,390 discharge notes covering patients hospitalized from 2015 to 2017 in the Tri-Service General Hospital in Taipei, mean AUC 0.9696; mean F-measure 0.9086
 - [Kaur, R., University., W.S., 2018. A comparative analysis of selected set of natural language processing (NLP) and machine learning (ML) algorithms for clinical coding using clinical classification standards. URL: http://hdl.handle.net/1959.7/uws:49614. a thesis presented to Western Sydney University, School of Computing, Engineering and Mathematics, in fulfilment of the requirements for the degree of Master of Research](https://researchdirect.westernsydney.edu.au/islandora/object/uws:49614/)
 - [Zhang, Z., Liu, J., & Razavian, N. (2020). BERT-XML: Large scale automated ICD coding using BERT pretraining. arXiv preprint arXiv:2006.03685.](https://arxiv.org/pdf/2006.03685.pdf)
+    - ICD-10-CM
 
 
 ### Hybrid
