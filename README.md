@@ -56,13 +56,13 @@ List some related topics found on [awesome](https://github.com/sindresorhus/awes
 - [Kaur, R., University., W.S., 2018. A comparative analysis of selected set of natural language processing (NLP) and machine learning (ML) algorithms for clinical coding using clinical classification standards. URL: http://hdl.handle.net/1959.7/uws:49614. a thesis presented to Western Sydney University, School of Computing, Engineering and Mathematics, in fulfilment of the requirements for the degree of Master of Research](https://researchdirect.westernsydney.edu.au/islandora/object/uws:49614/)
 - [Zhang, Z., Liu, J., & Razavian, N. (2020). BERT-XML: Large scale automated ICD coding using BERT pretraining. arXiv preprint arXiv:2006.03685.](https://arxiv.org/pdf/2006.03685.pdf)
     - ICD-10-CM
+- [Almagro, M., Unanue, R. M., Fresno, V., & Montalvo, S. (2020). ICD-10 coding of Spanish electronic discharge summaries: an extreme classification problem. IEEE Access, 8, 100073-100083.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9099210)
+    - Spanish modification of the ICD-10 (CIE-10-ES)
 
 
 ### Hybrid
 Papers with multiple ICD versions.
 - [Xiao, C., Choi, E., & Sun, J. (2018). Opportunities and challenges in developing deep learning models using electronic health records data: a systematic review. Journal of the American Medical Informatics Association, 25(10), 1419-1428.](https://academic.oup.com/jamia/article/25/10/1419/5035024)
 - [Kaur, R., Ginige, J. A., & Obst, O. (2021). A Systematic Literature Review of Automated ICD Coding and Classification Systems using Discharge Summaries. arXiv preprint arXiv:2107.10652.](https://arxiv.org/pdf/2107.10652.pdf)
-
-
 
 
